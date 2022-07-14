@@ -74,6 +74,10 @@ body {
     color: var(--accent-color)
 }
 
+.menu-link.current {
+    color: var(--accent-color);
+}
+
 .contact-phone-number-theme-light,
 .contact-email-theme-light {
     color: var(--secondary-text-color-theme-light);
