@@ -228,3 +228,42 @@ body {
 }
 
 /* =============== /Foter =============== */
+
+/* =============== Portfolio filters =============== */
+.filters-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light);
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.filters-button:hover,
+.filters-button:focus,
+.filters-button-active {
+    background: var(--accent-color);
+    color: var(--primary-text-color-theme-dark);
+}
+
+/* =============== /Portfolio filters =============== */
+
+/* =============== Portfolio list =============== */
+.portfolio-list-item-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color-theme-light);
+}
+
+.portfolio-list-item-description {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-theme-light);
+}
+
+/* =============== /Portfolio list =============== */
