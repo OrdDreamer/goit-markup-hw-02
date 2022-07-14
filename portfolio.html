@@ -5,21 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
     <!-- Header -->
-    <header>
-      <a href="">WebStudio</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Студия</a></li>
-          <li><a href="portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+    <header class="page-header">
+      <a class="logo logo-theme-light link" href="">
+        <span class="logo-blue-text">Web</span>Studio
+      </a>
+      <nav class="page-nav">
+        <ul class="menu list">
+          <li class="menu-item">
+            <a class="menu-link link" href="index.html"> Студия </a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link" href="portfolio.html"> Портфолио </a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link" href=""> Контакты </a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <ul class="list">
+        <li>
+          <a class="link contact-email contact-email-theme-light" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a
+            class="link contact-phone-number contact-phone-number-theme-light"
+            href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
 
@@ -27,7 +53,7 @@
     <main>
       <section>
         <h2>Портфолио</h2>
-        <ul>
+        <ul class="list">
           <li>
             <button>Все</button>
           </li>
@@ -45,7 +71,7 @@
           </li>
         </ul>
 
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="images/portfolio/technocrack.jpg"
@@ -141,12 +167,15 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-      <a href="">WebStudio</a>
-      <address>
-        <ul>
+    <footer class="page-footer">
+      <a class="logo logo-theme-dark link" href="">
+        <span class="logo-blue-text">Web</span>Studio
+      </a>
+      <address class="address">
+        <ul class="list">
           <li>
             <a
+              class="link address-link"
               href="https://goo.gl/maps/eCd9pNnfb7Bx4vSe9"
               target="_blank"
               rel="noopener noreferer"
@@ -154,8 +183,19 @@
               г. Киев, пр-т Леси Украинки, 26
             </a>
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="link contact-email contact-email-theme-dark" href="mailto:info@example.com">
+              info@example.com
+            </a>
+          </li>
+          <li>
+            <a
+              class="link contact-phone-number contact-phone-number-theme-dark"
+              href="tel:+380961111111"
+            >
+              +38 096 111 11 11
+            </a>
+          </li>
         </ul>
       </address>
     </footer>
